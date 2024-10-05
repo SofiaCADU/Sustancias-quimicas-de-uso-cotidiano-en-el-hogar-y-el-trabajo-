@@ -1,0 +1,220 @@
+/* encabezado */
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* encabezado */
+
+
+/* Inicio boton */
+.BTN {
+  height: 40px;
+  margin: 5px;
+  width: 250px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #00ffff, 5px 5px 15px #00ffff,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+}
+
+.BTN:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d3d8d3;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+
+/* Fin boton */
+
+.carrusel {
+  background-size: cover;
+  background-position: center;
+}
+
+.parrafo {
+  padding: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  justify-content: center
+}
+
+.card {
+  padding: 10px;
+  margin: 20px;
+}
+
+.tarjeta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.main {
+  /* background-color: #5898ff; */
+  color: rgb(0, 0, 0);
+}
+
+.P-P {
+  margin: 30px;
+}
+
+.encabezado {
+  margin: 50px;
+}
+
+.Texto-testimonio {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 255px;
+}
+
+.preguntas {
+  padding: 60px;
+  padding-top: 40px;
+}
+
+.Analisis {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.mapa {
+  margin: 100px;
+}
+
+.TituloP {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 400px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  font-weight: 1000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+
+/* Formulario.html */
+.Titulo-formulario {
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+  font-family: "Lato";
+}
+
+.informacion {
+  width: 800px;
+  margin: 40px;
+  padding: 20px;
+  padding-left: 60px;
+  color: #1b2429;
+}
+
+* {
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+.C1{
+  background-color: #71bec6;
+}
+
+.C2{
+  background-color: #1f7a75;
+}
+
+.C3{
+background-color: #d3d8d3;
+}
+
+.C4{
+  background-color: #4f5459;
+}
+
+.C5{
+  background-color: #1b2429;
+}
+
+
+.I{
+  width: 250px;
+  border-radius: 50%;
+}
+
+.In{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Picto{
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Fin formulario */
+
+/* Fondos */
+.hoja{
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);
+  background-size: 100% 1.2rem;
+}
+
+.hoja:hover{
+  background-image: linear-gradient(#ffffff 1.1rem, #a7a7a7 1.2rem);
+}
+
+/* Fondo formulario */
+.Fondo {
+  width: 800px;
+  height: 100%;
+  background: #f1f1f1;
+  background-image: linear-gradient(
+      90deg,
+      transparent 50px,
+      #ffb4b8 50px,
+      #ffb4b8 52px,
+      transparent 52px
+    ),
+    linear-gradient(#d3d8d3 0.1em, transparent 0.1em);
+  background-size: 100% 30px;
+}
+
+/* Fin fondos */
+
+.B{
+  border: #1b2429 1px solid;
+}
+
+
